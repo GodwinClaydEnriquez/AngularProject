@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-content>
+    <mat-card-title><h2>SAMPLE GAME</h2></mat-card-title>
+    <mat-card-title><h3>(Bisaya game)</h3></mat-card-title>
+    <mat-form-field>
+      <mat-label>How to eat an apple?</mat-label>
+      <input matInput [(ngModel)] = "apple" />
+    </mat-form-field>
+    &nbsp;
+    <mat-form-field>
+        <mat-label>Person's name</mat-label>
+        <input matInput [(ngModel)] = "name" />
+      </mat-form-field>
+    &nbsp;
+      <mat-form-field>
+          <mat-label>Part of the body</mat-label>
+          <input matInput [(ngModel)] = "part" />
+        </mat-form-field>
+    &nbsp;
+      <mat-form-field>
+          <mat-label>Person's name</mat-label>
+          <input matInput [(ngModel)] = "name2" />
+        </mat-form-field>
+  </mat-card-content>
+</mat-card>
+
+<h1>
+  Gi &nbsp;{{ apple }}&nbsp; ni &nbsp;{{ name }}&nbsp; ang &nbsp;{{ part }}&nbsp; ni &nbsp;{{ name2 }}&nbsp;
+</h1>
